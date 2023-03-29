@@ -12,8 +12,9 @@ main = rule {
     all instances as _, r {
       (length(r.applied.tags) else 0) > 0
     }
-  }
-}
+  
+   }
+}  
 ```
 
 ### EC2 Instance with Tags Code:
